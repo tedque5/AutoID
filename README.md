@@ -1,5 +1,5 @@
 # AutoID
 
-AutoID is the first multi-chain, easy-to-use and multiplatform Cosmos Hub wallet. Entirely made with Flutter, it fetches the data about the supported chains from a remote source. This means that adding a new supported chain is no harder than submitting a PR to the proper GitHub repository 😉.
+AutoID is a Open Source Manufacturer Vehicle Identification System.  A Decentralized and Distributed  Vehicle Identity System based on WC3 DID and Commercio.network Blockchain
 
 This project was born from an International team entry at the WANXIANG Hackaton Shanghai 2019

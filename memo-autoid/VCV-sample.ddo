@@ -1,0 +1,35 @@
+
+{ 
+	"@context": "https://www.w3.org/2019/did/v1", 
+	"id": "http://exampletsp.com/credentials/eedfk", 
+	"type": ["VerifiableCredential"] 
+	"issuer": { 
+		"id": "did:com:76e12ec712ebc6f1c221ebfeb1f",  this is the MANUFACTURER DID
+		"name": "Example TSP" 
+	}, 
+	"issuanceDate": "2019-03-04T17:34:383" 
+	"credentialSubject": { 
+		"id": " did:com:14zk9u8894eg7fhgw0dsesnqzmlrx85ga9rvnjc", 
+		"name": "cani&stracci Oil", 
+		"tin": "10201020102", 
+		"website": "https://caniestraccioil.com/", 
+		"email": "info@ caniestraccioil.com", 
+		"mobilenumber": "+390203020302", 
+		"address": "via Mario rossi 7", 
+		"zipcode": "20100", 
+		"city": "Milano", 
+		"state": "MI", 
+		"country": "IT" 
+	}, 
+	"credentialStatus": { 
+		"id": "https://example.edu/status/234", 
+		"type": "CredentialStatusList2017" 
+	}, 
+	"proof": { 
+		"type": "RsaSignature2018", <- This Signature is created by the MANUFACTURER anc can be verified with the verification keys included in MANUFACTURER DDO
+		"created": "2018-06-18T21:19:10Z", 
+		"proofPurpose": "assertionMethod", 
+		"verificationMethod": " http://exampletsp.com/tsp/keys/1", 
+		"jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..DJBMvvFAIC00nSGB6Tn0XKbbF9XrsaJZREWvR2aONYTQQxnyXirtXnlewJMBBn2h9hfcGZrvnC1b6PgWmukzFJ1IiH1dWgnDIS81BHIxXnPkbuYDeySorc4QU9MJxdVkY5EL4HYbcIfwKj6X4LBQ2_ZHZIu1jdqLcRZqHcsDF5KKylKc1THn5VRWy5WhYg_gBnyWny8E6Qkrze53MR7OuAmmNJ1m1nN8SxDrG6a08L78J0Fbas5OjAQz3c17GY8mVuDPOBIOVjMEghBlgl3nOi1ysxbRGhHLEK4s0KKbeRogZdgt1DkQxDFxxn41QWDw_mmMCjs9qxg0zcZzqEJw" 
+	} 
+}
